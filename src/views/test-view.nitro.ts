@@ -5,9 +5,15 @@ import type {
 } from 'react-native-nitro-modules'
 
 export interface TestViewProps extends HybridViewProps {
-   isRed: boolean
+  isRed: boolean
+  onColorChange: () => void
 }
 
 export interface TestViewMethods extends HybridViewMethods {}
 
-export type TestView = HybridView<TestViewProps, TestViewMethods, { ios: 'swift', android: 'kotlin' }>
+export type TestView = HybridView<
+  TestViewProps,
+  TestViewMethods,
+  { ios: 'swift'; android: 'kotlin' }
+>
+

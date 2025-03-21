@@ -1,0 +1,11 @@
+{
+  "uiViewClassName": "TestView",
+  "supportsRawText": false,
+  "bubblingEventTypes": {},
+  "directEventTypes": {},
+  "validAttributes": {
+    "isRed": true,
+    "onColorChange": true,
+    "hybridRef": true
+  }
+}
