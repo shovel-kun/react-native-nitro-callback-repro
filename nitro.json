@@ -1,0 +1,24 @@
+{
+  "$schema": "https://nitro.margelo.com/nitro.schema.json",
+  "cxxNamespace": [
+    "testview"
+  ],
+  "ios": {
+    "iosModuleName": "TestView"
+  },
+  "android": {
+    "androidNamespace": [
+      "testview"
+    ],
+    "androidCxxLibName": "TestView"
+  },
+  "autolinking": {
+    "TestView": {
+      "swift": "HybridTestView",
+      "kotlin": "HybridTestView"
+    }
+  },
+  "ignorePaths": [
+    "**/node_modules"
+  ]
+}
